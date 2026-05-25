@@ -1,8 +1,8 @@
 NAMES = ["John", "Paul", "George", "Ringo"]
-AGES = [20, 21, 22, 23]
+AGES = [20, 21, 22]
 
 i = 0
-while i < len(NAMES):
+while i < min(len(NAMES), len(AGES)):
     print(NAMES[i], AGES[i])
     i += 1
 
@@ -19,3 +19,5 @@ for i in range(5):
     print(i)
 
 # enumerate
+for i,name in enumerate(NAMES):
+    print(f"{i} {name}")

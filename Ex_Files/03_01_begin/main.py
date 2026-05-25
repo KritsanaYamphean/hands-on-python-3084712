@@ -1,5 +1,7 @@
 import csv
 from pprint import pprint
+# optional using import pprint (library name)
+# and then cal pprint.pprint to pretty print 
 
 EINSTEIN_CSV = 'Albert,Einstein,1879-03-14,1955-04-18,Germany,"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect",physics,1921'
 
